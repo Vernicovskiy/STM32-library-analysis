@@ -253,7 +253,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x16 ./Src/syscalls.o
  .debug_macro   0x0000000000000000       0xce ./Src/syscalls.o
  .debug_line    0x0000000000000000      0x8a3 ./Src/syscalls.o
- .debug_str     0x0000000000000000     0x98a3 ./Src/syscalls.o
+ .debug_str     0x0000000000000000     0x989c ./Src/syscalls.o
  .comment       0x0000000000000000       0x44 ./Src/syscalls.o
  .debug_frame   0x0000000000000000      0x2ac ./Src/syscalls.o
  .ARM.attributes
@@ -316,7 +316,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Src/sysmem.o
  .debug_macro   0x0000000000000000      0x1df ./Src/sysmem.o
  .debug_line    0x0000000000000000      0x574 ./Src/sysmem.o
- .debug_str     0x0000000000000000     0x605a ./Src/sysmem.o
+ .debug_str     0x0000000000000000     0x6053 ./Src/sysmem.o
  .comment       0x0000000000000000       0x44 ./Src/sysmem.o
  .debug_frame   0x0000000000000000       0x34 ./Src/sysmem.o
  .ARM.attributes
@@ -886,18 +886,17 @@ LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_macro   0x000000000000dafa       0x6d ./CMSIS/src/system_stm32f4xx.o
  .debug_macro   0x000000000000db67       0xd2 ./Src/main.o
 
-.debug_line     0x0000000000000000      0xbe3
- .debug_line    0x0000000000000000      0x56b ./CMSIS/src/system_stm32f4xx.o
- .debug_line    0x000000000000056b      0x5fd ./Src/main.o
- .debug_line    0x0000000000000b68       0x7b ./Startup/startup_stm32f401retx.o
+.debug_line     0x0000000000000000      0xbd5
+ .debug_line    0x0000000000000000      0x564 ./CMSIS/src/system_stm32f4xx.o
+ .debug_line    0x0000000000000564      0x5f6 ./Src/main.o
+ .debug_line    0x0000000000000b5a       0x7b ./Startup/startup_stm32f401retx.o
 
-.debug_str      0x0000000000000000    0x4fae8
- .debug_str     0x0000000000000000    0x4f5a1 ./CMSIS/src/system_stm32f4xx.o
-                                      0x4f712 (size before relaxing)
- .debug_str     0x000000000004f5a1      0x518 ./Src/main.o
-                                      0x4fb94 (size before relaxing)
- .debug_str     0x000000000004fab9       0x2f ./Startup/startup_stm32f401retx.o
-                                         0x69 (size before relaxing)
+.debug_str      0x0000000000000000    0x4fb1b
+ .debug_str     0x0000000000000000    0x4f59a ./CMSIS/src/system_stm32f4xx.o
+                                      0x4f70b (size before relaxing)
+ .debug_str     0x000000000004f59a      0x518 ./Src/main.o
+                                      0x4fb8d (size before relaxing)
+ .debug_str     0x000000000004fab2       0x69 ./Startup/startup_stm32f401retx.o
 
 .debug_frame    0x0000000000000000      0x148
  .debug_frame   0x0000000000000000       0x58 ./CMSIS/src/system_stm32f4xx.o
